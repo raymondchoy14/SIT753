@@ -44,7 +44,7 @@ pipeline {
             }
         }
 
-        stage('Deploy to Production') {
+        stage('Deploy to Productions') {
             steps {
                 echo 'Deploying to production environment...'
                 sh 'echo "Simulated: deploy to production"'
